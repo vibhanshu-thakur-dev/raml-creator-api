@@ -1,0 +1,41 @@
+{
+	"name":"Employee Management API",
+	"version":"v1",
+	"baseUri":"https://www.example.com/api/",
+	"resources":[
+			{
+				"name":"employee",
+				"desc":"Get me all the employees",
+				"methods":[
+						{
+							"name":"get",
+							"desc":"Get all the employees",
+							"responseExample":"[\n{\n    \"rentalType\": \"equipment\",\n    \"rentalSubType\": \"combo/tent/sleeping_bag/rope\",\n    \"name\": \"3 x Tent(2 person) +\",\n    \"imageUrl\":\"img url\",\n    \"rate\": 12,\n\t\"description\":\"brief\"\n },\n {\n    \"rentalType\": \"equipment\",\n    \"rentalSubType\": \"combo/tent/sleeping_bag/rope\",\n    \"name\": \"3 x Tent(2 person) +\",\n    \"imageUrl\":\"img url\",\n    \"rate\": 12,\n\t\"description\":\"brief\"\n }\n]"
+						},
+						{
+							"name":"post",
+							"desc":"Get all the employees",
+							"responseExample":"[\n{\n    \"rentalType\": \"equipment\",\n    \"rentalSubType\": \"combo/tent/sleeping_bag/rope\",\n    \"name\": \"3 x Tent(2 person) +\",\n    \"imageUrl\":\"img url\",\n    \"rate\": 12,\n\t\"description\":\"brief\"\n },\n {\n    \"rentalType\": \"equipment\",\n    \"rentalSubType\": \"combo/tent/sleeping_bag/rope\",\n    \"name\": \"3 x Tent(2 person) +\",\n    \"imageUrl\":\"img url\",\n    \"rate\": 12,\n\t\"description\":\"brief\"\n }\n]",
+							"requestExample":"[\n{\n    \"rentalType\": \"equipment\",\n    \"rentalSubType\": \"combo/tent/sleeping_bag/rope\",\n    \"name\": \"3 x Tent(2 person) +\",\n    \"imageUrl\":\"img url\",\n    \"rate\": 12,\n\t\"description\":\"brief\"\n },\n {\n    \"rentalType\": \"equipment\",\n    \"rentalSubType\": \"combo/tent/sleeping_bag/rope\",\n    \"name\": \"3 x Tent(2 person) +\",\n    \"imageUrl\":\"img url\",\n    \"rate\": 12,\n\t\"description\":\"brief\"\n }\n]"
+						}
+					]
+			},
+			{
+				"name":"student",
+				"desc":"Get me all the student",
+				"methods":[
+						{
+							"name":"get",
+							"desc":"Get all the employees",
+							"responseExample":"[\n{\n    \"rentalType\": \"equipment\",\n    \"rentalSubType\": \"combo/tent/sleeping_bag/rope\",\n    \"name\": \"3 x Tent(2 person) +\",\n    \"imageUrl\":\"img url\",\n    \"rate\": 12,\n\t\"description\":\"brief\"\n },\n {\n    \"rentalType\": \"equipment\",\n    \"rentalSubType\": \"combo/tent/sleeping_bag/rope\",\n    \"name\": \"3 x Tent(2 person) +\",\n    \"imageUrl\":\"img url\",\n    \"rate\": 12,\n\t\"description\":\"brief\"\n }\n]"
+						},
+						{
+							"name":"post",
+							"desc":"Get all the employees",
+							"responseExample":"[\n{\n    \"rentalType\": \"equipment\",\n    \"rentalSubType\": \"combo/tent/sleeping_bag/rope\",\n    \"name\": \"3 x Tent(2 person) +\",\n    \"imageUrl\":\"img url\",\n    \"rate\": 12,\n\t\"description\":\"brief\"\n },\n {\n    \"rentalType\": \"equipment\",\n    \"rentalSubType\": \"combo/tent/sleeping_bag/rope\",\n    \"name\": \"3 x Tent(2 person) +\",\n    \"imageUrl\":\"img url\",\n    \"rate\": 12,\n\t\"description\":\"brief\"\n }\n]",
+							"requestExample":"[\n{\n    \"rentalType\": \"equipment\",\n    \"rentalSubType\": \"combo/tent/sleeping_bag/rope\",\n    \"name\": \"3 x Tent(2 person) +\",\n    \"imageUrl\":\"img url\",\n    \"rate\": 12,\n\t\"description\":\"brief\"\n },\n {\n    \"rentalType\": \"equipment\",\n    \"rentalSubType\": \"combo/tent/sleeping_bag/rope\",\n    \"name\": \"3 x Tent(2 person) +\",\n    \"imageUrl\":\"img url\",\n    \"rate\": 12,\n\t\"description\":\"brief\"\n }\n]"
+						}
+					]
+			}
+		]
+}

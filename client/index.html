@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Data type generator</title>
+	<script type="text/javascript" src="js/lib/jquery.min.js"></script>
+</head>
+<body>
+	<label>Input json here</label>
+	<textarea id="inputJson" style="height: 400px;width: 100%"></textarea>
+	<button onclick="sendJson()">Send JSON</button>
+</body>
+<script type="text/javascript">
+	
+	function sendJson(){
+			let postData = {
+					inputJson:$("#inputJson").val()
+				};
+			$.ajax({
+				url:"http://localhost:3000/api/dataTypes",
+				type:"POST",
+				contentType:'application/json',
+				data:JSON.stringify(postData),
+				success:function(response){
+					console.log(response);
+				},
+				error:function(error){
+				
+				}
+			})
+	}
+
+</script>
+</html>

@@ -1,0 +1,32 @@
+{
+  "name": "ramlGenerator",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "version": {
+      "type": "string",
+      "required": true
+    },
+    "baseUri": {
+      "type": "string",
+      "required": true
+    },
+    "resources": {
+      "type": [
+        "object"
+      ],
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

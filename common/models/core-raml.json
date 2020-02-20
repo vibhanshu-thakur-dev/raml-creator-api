@@ -1,0 +1,26 @@
+{
+  "name": "coreRaml",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "apiName": {
+      "type": "string",
+      "required": true
+    },
+    "apiVersion": {
+      "type": "string",
+      "required": true
+    },
+    "apiBaseUri": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

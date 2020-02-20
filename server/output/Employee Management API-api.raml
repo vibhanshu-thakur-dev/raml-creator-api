@@ -1,0 +1,44 @@
+#%RAML 1.0 
+title: Employee Management API
+version: v1
+baseUri: https://www.example.com/api/
+protocols: [HTTPS,HTTP]
+
+mediaType: application/json
+
+uses:
+  customDataTypes: library/dataTypes/customDataTypes.raml
+
+resourceTypes:
+  employeetype: !include library/resourceTypes/employee-resourceType.raml
+  studenttype: !include library/resourceTypes/student-resourceType.raml
+
+/employee:
+  type:
+    employeetype:
+      resourceTypeDescription: Get me all the employees
+
+      getDescription: Get all the employees
+      getResponseType: customDataTypes.getemployeeResponse
+      getResponseExample: !include examples/employee/get/response/employee.json
+
+      postDescription: Get all the employees
+      postResponseType: customDataTypes.postemployeeResponse
+      postResponseExample: !include examples/employee/post/response/employee.json
+      postRequestExample: !include examples/employee/post/request/employee.json
+      postRequestType: customDataTypes.postemployeeRequest
+
+/student:
+  type:
+    studenttype:
+      resourceTypeDescription: Get me all the student
+
+      getDescription: Get all the employees
+      getResponseType: customDataTypes.getstudentResponse
+      getResponseExample: !include examples/student/get/response/student.json
+
+      postDescription: Get all the employees
+      postResponseType: customDataTypes.poststudentResponse
+      postResponseExample: !include examples/student/post/response/student.json
+      postRequestExample: !include examples/student/post/request/student.json
+      postRequestType: customDataTypes.poststudentRequest

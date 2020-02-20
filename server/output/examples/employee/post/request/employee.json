@@ -1,0 +1,18 @@
+[
+{
+    "rentalType": "equipment",
+    "rentalSubType": "combo/tent/sleeping_bag/rope",
+    "name": "3 x Tent(2 person) +",
+    "imageUrl":"img url",
+    "rate": 12,
+	"description":"brief"
+ },
+ {
+    "rentalType": "equipment",
+    "rentalSubType": "combo/tent/sleeping_bag/rope",
+    "name": "3 x Tent(2 person) +",
+    "imageUrl":"img url",
+    "rate": 12,
+	"description":"brief"
+ }
+]
